@@ -63,10 +63,10 @@ class MyWidget extends State<MyMap> with GetCoordinates {
                         child: Text('Get Directions'),
                       ),
                       ElevatedButton(
-                        onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (c) => ARScene()));
-                        },
+                        onPressed: null, //() {
+                        //   Navigator.push(context,
+                        //       MaterialPageRoute(builder: (c) => ARScene()));
+                        // },
                         child: Text('Start AR View'),
                       ),
                     ],
