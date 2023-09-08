@@ -16,6 +16,7 @@ void main() {
 //Mixin to Get the Geopoint and other details of atms and branches
 mixin GetCoordinates {
   final List<CustomMarkerData> customMarkers = [];
+  final List<CustomMarkerData> hello = [];
 
   //get atm data
   final List<GeoPoint> atmCoordinates = [];
